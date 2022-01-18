@@ -1,5 +1,10 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+</style>
+
 body{
     background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header{
@@ -34,6 +39,8 @@ body{
     background-color: #fff;
     border: 1px solid #C4C4C4;
     margin: 30px 0;
+    box-sizing: border-box;
+
 }
 
 .story-sign{
@@ -48,5 +55,32 @@ body{
 .story p{
     margin: 0;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
+.post-1{
+    height: 811px;
+    background-color: #fff;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+}
+
+.post-1-header{
+    height: 60px;
+    border-bottom: 1px solid #c4c4c4;
+    display: flex;
+}
+
+.post-header-icon{
+    width: 36px;
+    height: 36px;
+    margin: 12px 16px 0 24px;
+}
+
+.post-text{
+    display: inline-flex;
+    margin-top: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}

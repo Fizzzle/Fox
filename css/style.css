@@ -19,7 +19,7 @@ body{
 
 .container{
     width: 672px;
-    margin: 0 400px;
+    margin: 0 auto;
 }
 
 .header-menu{
